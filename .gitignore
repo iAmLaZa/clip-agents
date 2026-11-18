@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# downloaded by SETUP.bat
+vendor/
+models/
+.venv/
+
+# generated per run
+runs/
+output/
+workspace/
+data/streamers/*
+data/trends/*
+data/logs/*
+data/processed.json
+!data/**/.gitkeep
+
+# python / os
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

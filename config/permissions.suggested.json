@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bin/py *)", "Bash(./bin/py *)",
+      "Bash(ls *)", "Bash(cat *)", "Bash(head *)", "Bash(tail *)", "Bash(find *)", "Bash(du *)",
+      "Bash(mkdir *)", "Bash(cp *)", "Bash(mv *)", "Bash(echo *)", "Bash(date *)", "Bash(wc *)",
+      "Bash(rm -rf runs/*)", "Bash(rm -f runs/*)", "Bash(rm runs/*)",
+      "Read", "Write", "Edit", "Glob", "Grep",
+      "WebSearch", "WebFetch",
+      "Agent", "Skill"
+    ],
+    "deny": [
+      "Bash(git push*)", "Bash(git commit*)",
+      "Read(./.env)", "Read(../.env)"
+    ]
+  }
+}

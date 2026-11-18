@@ -1,0 +1,34 @@
+{
+  "clips_per_run": 6,
+  "max_streamers_per_run": 4,
+  "vods_per_streamer": 1,
+  "max_vod_hours": 4,
+  "use_live_recording": true,
+  "live_record_minutes": 45,
+  "max_parallel_live_recordings": 2,
+  "candidates_per_source": 12,
+  "min_moment_score": 4,
+  "clip_seconds": {
+    "min": 15,
+    "ideal": 35,
+    "max": 59
+  },
+  "whisper_model": "base",
+  "caption_language": "auto",
+  "default_layout": "split",
+  "source_platforms": [
+    "twitch",
+    "youtube",
+    "kick"
+  ],
+  "target_platforms": [
+    "tiktok",
+    "youtube_shorts",
+    "instagram_reels"
+  ],
+  "credit_streamer": true,
+  "skip_already_processed": true,
+  "cleanup_sources_after_run": true,
+  "max_wall_time_minutes": 180,
+  "free_only": true
+}

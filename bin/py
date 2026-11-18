@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Portable python launcher: clipping/.venv, then ../.venv (inside OpenMontage), then system python.
+D="$(cd "$(dirname "$0")/.." && pwd)"
+for p in "$D/.venv/Scripts/python.exe" "$D/.venv/bin/python" "$D/../.venv/Scripts/python.exe" "$D/../.venv/bin/python"; do
+  [ -x "$p" ] && exec "$p" "$@"
+done
+exec python "$@"

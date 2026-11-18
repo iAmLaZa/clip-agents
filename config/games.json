@@ -1,0 +1,12 @@
+{
+  "VALORANT":          { "aliases": ["valo"], "twitch": "VALORANT", "kick_category": "Valorant", "youtube_query": "valorant", "watchlist": [] },
+  "Counter-Strike 2":  { "aliases": ["cs2", "csgo", "counter-strike"], "twitch": "Counter-Strike", "kick_category": "Counter-Strike 2", "youtube_query": "cs2", "watchlist": [] },
+  "Fortnite":          { "aliases": [], "twitch": "Fortnite", "kick_category": "Fortnite", "youtube_query": "fortnite", "watchlist": [] },
+  "League of Legends": { "aliases": ["lol", "league"], "twitch": "League of Legends", "kick_category": "League of Legends", "youtube_query": "league of legends", "watchlist": [] },
+  "Minecraft":         { "aliases": [], "twitch": "Minecraft", "kick_category": "Minecraft", "youtube_query": "minecraft", "watchlist": [] },
+  "GTA V":             { "aliases": ["gta", "gta 5", "gta rp"], "twitch": "Grand Theft Auto V", "kick_category": "GTA V", "youtube_query": "gta rp", "watchlist": [] },
+  "Warzone":           { "aliases": ["cod", "call of duty"], "twitch": "Call of Duty: Warzone", "kick_category": "Call of Duty: Warzone", "youtube_query": "warzone", "watchlist": [] },
+  "Apex Legends":      { "aliases": ["apex"], "twitch": "Apex Legends", "kick_category": "Apex Legends", "youtube_query": "apex legends", "watchlist": [] },
+  "Rust":              { "aliases": [], "twitch": "Rust", "kick_category": "Rust", "youtube_query": "rust game", "watchlist": [] },
+  "Marvel Rivals":     { "aliases": ["rivals"], "twitch": "Marvel Rivals", "kick_category": "Marvel Rivals", "youtube_query": "marvel rivals", "watchlist": [] }
+}
